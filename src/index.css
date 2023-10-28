@@ -7,7 +7,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  background-color:#8eb94e;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 15px;
+  background: #d5e1df;
+  min-width: 310px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+h1 {
+  padding: 15px 30px;
+  color: black;
+  background: #d5e1df;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #b5e7a0; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.button.submit {
+  background-color: #e3eaa7;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.summary {
+  margin: 40px;
 }
