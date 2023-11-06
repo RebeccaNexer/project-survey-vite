@@ -2,8 +2,8 @@ export const Season = ({ updateFormData, value }) => {
     const season = (e) => updateFormData("season", e.target.value);
     return (
         <div>
-            <label>Favourite season:</label>
-            <select className="custom-select" value={value} onChange={season}>
+            <label htmlFor="season">Favourite season:</label>
+            <select id="season" name="season" className="custom-select" value={value} onChange={season}>
                 <option value="">Pick your fav season</option>
                 <option value="autumn">Autumn</option>
                 <option value="winter">Winter</option>
